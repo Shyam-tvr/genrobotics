@@ -13,6 +13,7 @@ import Industries from "@/components/home/Industries";
 import Awards from "@/components/home/Awards";
 import Testmonials from "@/components/home/Testmonials";
 import Challenges from "@/components/home/Challenges";
+import Services from "@/components/home/Services";
 
 export default function Home() {
   return (
@@ -24,9 +25,10 @@ export default function Home() {
       <Milestones />
       <Products />
       <Models />
+      <Services />
       <Features />
       <Recognition />
-      {/* <Impact /> */}
+      <Impact />
       <Industries />
       <Clients />
       <Awards />

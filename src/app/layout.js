@@ -1,3 +1,4 @@
+import Footer from "@/components/Layout/Footer";
 import "./globals.css";
 export const metadata = {
   title: "Genrobotics",
@@ -9,6 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
+        <Footer />
       </body>
     </html>
   );
