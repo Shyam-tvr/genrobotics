@@ -1,0 +1,37 @@
+import Transform from "@/components/home/Transform";
+import Hero from "../components/home/Hero";
+import HiddenDanger from "../components/home/HiddenDanger";
+import Statistics from "@/components/home/Statistics";
+import Milestones from "@/components/home/Milestones";
+import Products from "@/components/home/Products";
+import Models from "@/components/home/Models";
+import Features from "@/components/home/Features";
+import Recognition from "@/components/home/Recognition";
+import Impact from "@/components/home/Impact";
+import Clients from "@/components/home/Clients";
+import Industries from "@/components/home/Industries";
+import Awards from "@/components/home/Awards";
+import Testmonials from "@/components/home/Testmonials";
+import Challenges from "@/components/home/Challenges";
+
+export default function Home() {
+  return (
+    <div >
+      <Hero />
+      <HiddenDanger />
+      <Transform />
+      <Statistics />
+      <Milestones />
+      <Products />
+      <Models />
+      <Features />
+      <Recognition />
+      {/* <Impact /> */}
+      <Industries />
+      <Clients />
+      <Awards />
+      <Testmonials />
+      <Challenges />
+    </div>
+  );
+}
