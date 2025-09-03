@@ -42,10 +42,11 @@ const Slider = ({ children }) => {
           ))
         }
       </div>
-      <div className="flex justify-center items-center mt-4 gap-4">
+      <div className="flex justify-center items-center gap-4 mt-4">
         {slides.map((_, index) => (
           <div
             key={index}
+            onClick={() => setActiveIndex(index)}
             className={`h-2 w-2 rounded-full ${activeIndex === index ? "bg-gray-800" : "bg-gray-300"}`}
           ></div>
         ))}

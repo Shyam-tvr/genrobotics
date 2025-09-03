@@ -29,7 +29,7 @@ const Awards = () => {
         <Slider>
           {
             AwardsDetails.map((award) => (
-              <div key={award.id} className="mx-4 mt-8 bg-[#2b2b2b] p-4 rounded-xl">
+              <div key={award.id} className="mx-4 my-8 bg-[#2b2b2b] p-4 rounded-xl">
                 <img
                   src={award.image}
                   alt={award.title}
