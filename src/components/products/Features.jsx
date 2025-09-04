@@ -1,13 +1,11 @@
 import React from "react";
 
-const Features = ({ featuresDetails }) => {
+const Features = ({ featuresDetails, description }) => {
   return (
     <div className="bg-[#f6f6f6] px-4 py-8">
       <h2 className="text-2xl font-bold py-4 text-center">Key Features</h2>
       <p className=" text-sm mx-auto text-center">
-        Engineered for precision and safety, Bandicoot redefines manhole
-        cleaning. Discover the smart features that make it powerful, efficient,
-        and human-friendly.
+        {description}
       </p>
       <div className="grid grid-cols-2 gap-4 mt-6 max-w-4xl mx-auto">
         {featuresDetails.map((feature, index) => (
