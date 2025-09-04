@@ -15,6 +15,8 @@ import MissionRoboHole from "@/components/products/MissionRoboHole";
 import Clients from "@/components/products/Clients";
 import Questions from "@/components/products/Questions";
 import Form from "@/components/products/Form";
+import Solution from "@/components/products/Solution";
+import Faster from "@/components/products/Faster";
 
 const feature = [
   {
@@ -216,6 +218,8 @@ const MobilityPlus = () => {
       <Banner logo={"/images/products/mobility-logo.png"} bg={"/images/products/mobility-bg.png"} title={"Vehicle Integrated Robotic"} subtitle={"Manhole Cleaning & Waste Management"} />
       <Why title={"Bandicoot-Mobility"} subTitle={"Enhanced Efficiency, Seamless Operations"} bg={"/images/products/mobility-why-bg.png"} description={"Bandicoot Mobility+ takes robotic manhole cleaning to the next level by integrating the powerful Bandicoot robot with a dedicated vehicle and an advanced waste management system. This all-in-one solution streamlines the entire process, from transportation to cleaning and on-site waste disposal. By eliminating the need for separate transportation and manual loading/unloading of the robot and waste, Mobility+ significantly reduces transit times between cleaning locations, enhances operational speed, and improves overall efficiency. It's the perfect solution for municipalities and organizations looking for a comprehensive, mobile, and highly effective sanitation system."}/>
       <Features featuresDetails={feature} description={"Explore the features of Bandicoot Mobility+ that powers faster deployment, precision cleaning, better access, and safer operations."} />
+      <Solution />
+      <Faster />
       <Working title={"How Bandicoot-Mobility+ Works"} subTitle={"An Integrated and Automated Cleaning Cycle"} description={"Bandicoot Mobility+ streamlines the entire manhole cleaning process through seamless vehicle integration and automation."} data={data} />
       <Industries IndustriesData={IndustriesData} />
       <Statistics statisticsData={statisticsData}/>
