@@ -3,7 +3,7 @@ import React from "react";
 const Banner = ({ logo, bg, title, subtitle }) => {
   return (
     <div 
-      className="h-screen bg-cover bg-center pt-24 px-4"
+      className={`h-screen bg-cover ${title !== "Revolutionizing Sanitation Management" && "bg-center"} pt-24 px-4`}
       style={{
         backgroundImage: `url('${bg}')`
       }}

@@ -3,14 +3,7 @@ import Features from "@/components/products/Features";
 import Banner from "@/components/products/Banner";
 import Why from "@/components/products/Why";
 import Industries from "@/components/products/Industries";
-import Working from "@/components/products/Working";
-import Statistics from "@/components/products/Statistics";
-import Updates from "@/components/products/Updates";
-import Recognition from "@/components/home/Recognition";
-import MakeInIndia from "@/components/products/MakeInIndia";
-import Milestones from "@/components/products/Milestones";
-import Reach from "@/components/products/Reach";
-import Transform from "@/components/products/Transform";
+import MakeInIndia from "@/components/products/MakeInIndia"
 import MissionRoboHole from "@/components/products/MissionRoboHole";
 import Clients from "@/components/products/Clients";
 import Questions from "@/components/products/Questions";
@@ -66,106 +59,6 @@ const IndustriesData = [
   {
     image: "/images/products/hotels.png",
     label: "Hotels",
-  },
-];
-
-const data = [
-    {
-      title: "Vehicle Positioning & Robot Deployment",
-      description:
-        "The Mobility+ vehicle is positioned near the manhole. The integrated system allows for easy and quick deployment of the Bandicoot robotic unit.",
-    },
-    {
-      title: "Robotics Unit Operation",
-      description:
-        "The Bandicoot robot (Robotics Unit) is lowered into the manhole. Its robotic legs expand for stability and movement.",
-    },
-    {
-      title: "Inspection & Cleaning",
-      description:
-        "HD cameras and gas sensors facilitate inspection. The robotic arm, with its bucket/grabber, efficiently collects waste.",
-    },
-    {
-      title:
-        "Automated Waste Transfer",
-      description:
-        "Collected waste is lifted by the robot and automatically transferred to the vehicle's integrated storage chamber via the dumper system.",
-    },
-    {
-      title: "Waste Containment & Transportation",
-      description:
-        "Waste is securely contained within the vehicle for hygienic transportation to disposal sites.",
-    },
-    {
-      title: "Remote Operation & Safety",
-      description:
-        "The entire operation, including robot control and waste dumping, is managed remotely, ensuring zero human entry and maximum operator safety.",
-    },
-    {
-      title: "Detachable for Narrow Areas",
-      description:
-        "If needed, the core Bandicoot robot can be detached from the vehicle for use in narrow lanes or areas inaccessible to the vehicle itself, offering operational flexibility.",
-    }
-  ];
-
-const sliderContent = [
-  {
-    image: "/images/home/recognition1.png",
-    title: "Supreme Court Judgement",
-    description:
-      "As per SC Judgement (Writ Petition No. 324/2020), Bandicoot was cited for employing modern technology to eliminate Manual Scavenging.",
-  },
-  {
-    image: "/images/home/recognition1.png",
-    title: "Swachh Survekshan Toolkit",
-    description:
-      "The Government of India recognized Bandicoot as a significant advancement in robotics for sanitation, aligning with the National Policy on Robotics.",
-  },
-  {
-    image: "/images/home/recognition1.png",
-    title: "International Recognition",
-    description:
-      "Bandicoot has gained international recognition for its innovative approach to sanitation, receiving accolades from various global organizations.",
-  },
-];
-
-const statisticsData = [
-  {
-    value: "100%",
-    label: "Robotic\nManhole Cleaning",
-  },
-  {
-    value: "100%",
-    label: "Elimination of Manual Scavenging",
-  },
-  {
-    value: "100%",
-    label: "Robotic Waste Handling",
-  },
-  {
-    value: "75%",
-    label: "Reduction in Operation Cost",
-  },
-];
-
-const updatesContent = [
-  {
-    image: "/images/products/mobility-update1.png",
-    title: "Gujarat’s Clean Revolution Begins with 11 Bandicoot Mobility+",
-    description:
-      "With the deployment of 11 Bandicoot Mobility Plus robots, Gujarat signals a powerful shift in urban sanitation. Led by the Gujarat Urban Development Mission (GUDM), this initiative aims to eliminate manual scavenging and modernize manhole cleaning with precision, safety, and dignity. Each of the 11 robots now operational across key municipalities represents not just advanced technology, but a promise — a promise of cleaner cities and safer futures.",
-  },
-  {
-    image: "/images/products/mobility-update2.png",
-    title: "Chennai Deploys 3 Bandicoot Mobility+ Robots",
-    description:
-      "Chennai strengthens its commitment to smart sanitation with the launch of 3 Bandicoot Mobility+ Robots, inaugurated by Minister K.N. Nehru and Mayor Priya Rajan. This milestone builds on Tamil Nadu’s leadership in deploying Bandicoot technology, already active in over 15 cities across the state, advancing the cause of sustainable, human-friendly sanitation.",
-  },
-  {
-    image: "/images/products/mobility-update3.png",
-    title: "Chhatrapati Sambhajinagar Adopts 2 Bandicoot Mobility+ Units",
-    description:
-      "Formerly known as Aurangabad, Chhatrapati Sambhajinagar marks a key milestone in its sanitation transformation with the deployment of 2 Bandicoot Mobility+ Robots. The launch was graced by Commissioner Shri G. Srikanth IAS, City Engineer Shri Anirudh Dehankar, and Executive Engineer Shri Amol Kulkarni, signaling a powerful beginning toward safer, more connected, and accessible sanitation infrastructure.",
   },
 ];
 
