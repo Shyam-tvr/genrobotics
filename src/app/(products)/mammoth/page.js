@@ -2,15 +2,7 @@ import React from 'react'
 import Features from "@/components/products/Features";
 import Banner from "@/components/products/Banner";
 import Why from "@/components/products/Why";
-import Industries from "@/components/products/Industries";
-import Working from "@/components/products/Working";
-import Statistics from "@/components/products/Statistics";
-import Updates from "@/components/products/Updates";
-import Recognition from "@/components/home/Recognition";
 import MakeInIndia from "@/components/products/MakeInIndia";
-import Milestones from "@/components/products/Milestones";
-import Reach from "@/components/products/Reach";
-import Transform from "@/components/products/Transform";
 import MissionRoboHole from "@/components/products/MissionRoboHole";
 import Clients from "@/components/products/Clients";
 import Questions from "@/components/products/Questions";
