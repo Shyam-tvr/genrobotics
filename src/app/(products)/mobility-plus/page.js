@@ -17,6 +17,7 @@ import Questions from "@/components/products/Questions";
 import Form from "@/components/products/Form";
 import Solution from "@/components/products/Solution";
 import Faster from "@/components/products/Faster";
+import Upgrade from "@/components/products/Upgrade";
 
 const feature = [
   {
@@ -220,6 +221,7 @@ const MobilityPlus = () => {
       <Features featuresDetails={feature} description={"Explore the features of Bandicoot Mobility+ that powers faster deployment, precision cleaning, better access, and safer operations."} />
       <Solution />
       <Faster />
+      <Upgrade />
       <Working title={"How Bandicoot-Mobility+ Works"} subTitle={"An Integrated and Automated Cleaning Cycle"} description={"Bandicoot Mobility+ streamlines the entire manhole cleaning process through seamless vehicle integration and automation."} data={data} />
       <Industries IndustriesData={IndustriesData} />
       <Statistics statisticsData={statisticsData}/>

@@ -8,6 +8,7 @@ import MissionRoboHole from "@/components/products/MissionRoboHole";
 import Clients from "@/components/products/Clients";
 import Questions from "@/components/products/Questions";
 import Form from "@/components/products/Form";
+import Spaces from "@/components/products/Spaces";
 
 const feature = [
   {
@@ -115,6 +116,7 @@ const Wilboar = () => {
       <Banner logo={"/images/products/wilboar-logo.png"} bg={"/images/products/wilboar-bg.png"} title={"The Ultimate Robotic Rover for cleaning & inspection of large confined spaces"} />
       <Why title={"Wilboar"} subTitle={"Revolutionizing Industrial & Large-Scale Cleaning"} image={"/images/products/wilboar.png"} description={"Confined spaces within sewer wells, canals, storm water drains and STP wells are filled with hazardous waste and debris, posing serious risks to human health and safety. The challenging task of cleaning these environments requires safer solutions that minimize human involvement.Introducing Wilboar, the ideal solution for secure and efficient cleaning of sewer wells, canals, storm water drains and STP wells. Equipped with advanced technology, Wilboar ensures maximum safety by eliminating the need for manual entry and exposure to dangerous substances, revolutionizing the maintenance of these critical infrastructure areas."}/>
       <Features featuresDetails={feature} description={"From stubborn clogs to underground diagnostics, Wilboar handles it all — efficiently."} />
+      <Spaces />
       <Industries IndustriesData={IndustriesData} />
       <Clients data={ClientsData} />
       <MakeInIndia title={"Wilboar :"} subTitle={"Make in India, for Global Impact"} image={"/images/products/jkr_3204.png"} description={"Wilboar is completely designed and manufactured in India, a testament to the 'Make in India' initiative. Through Wilboar, we champion the 'AatmaNirbhar Bharat Abhiyan' (Self-Reliant India campaign), empowering the nation with indigenous robotic technologies to eliminate manual scavenging.While rooted in India, the problem of hazardous sanitation work is a global concern. Wilboar's innovative solution holds a global perspective, offering a proven and adaptable technology that can be deployed worldwide to transform sanitation practices, protect workers, and improve public health in any nation facing similar challenges."}/>
