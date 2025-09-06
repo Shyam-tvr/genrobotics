@@ -53,7 +53,7 @@ const Features = () => {
                 <div>
                   <p className="font-bold my-2 text-sm">{feature.title}</p>
                 </div>
-              <p className="text-sm">{feature.description}</p>
+              <p className="text-xs">{feature.description}</p>
             </div>
           </div>
         ))

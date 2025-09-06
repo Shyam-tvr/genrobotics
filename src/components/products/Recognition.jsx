@@ -21,7 +21,7 @@ const Recognition = ({ sliderContent }) => {
               <div>
                 <div className="flex flex-col justify-center h-full">
                   <p className="text-sm font-semibold mb-1">{content.title}</p>
-                  <p className="text-[12px]">{content.description}</p>
+                  <p className="text-xs">{content.description}</p>
                 </div>
               </div>
             </div>

@@ -6,9 +6,9 @@ const Transform = () => {
       <p className="text-2xl font-bold ">
         Transforming the Lives of Sanitation Workers
       </p>
-      <p className="text-sm font-thin">More Than Just a Robot</p>
+      <p className="text-xs font-thin">More Than Just a Robot</p>
       <div className="bg-[linear-gradient(90deg,#fcd90100,#000000_50%,#fcd90100)] h-[1px] mx-auto my-4"></div>
-      <p className="my-4 text-left">
+      <p className="my-4 text-left text-sm">
         Bandicoot is not merely a technological advancement; it is a tool for
         social upliftment. By eliminating manual scavenging, we are restoring
         dignity to sanitation workers and providing them with safer, healthier,

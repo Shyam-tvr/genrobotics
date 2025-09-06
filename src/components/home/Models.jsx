@@ -34,7 +34,7 @@ const Models = () => {
       <p className="text-center text-2xl font-bold">
         Our Flexible Engagement Models
       </p>
-      <p className="mt-12">
+      <p className="mt-12 text-sm">
         Genrobotics offers adaptable engagement models to suit your operational
         needs, ensuring you receive the maximum benefit from our advanced
         robotic solutions and achieve regulatory compliance seamlessly.
@@ -52,10 +52,10 @@ const Models = () => {
                       />
                       <div>
                           <p className=" text-[#6D6D6D] text-4xl font-extrabold opacity-40 text-right mr-4 ">Model {index + 1}</p>
-                          <p className="text-lg font-semibold">{model.title}</p>
+                          <p className="text-base font-semibold">{model.title}</p>
                       </div>
                   </div>
-                  <p>{model.description}</p>
+                  <p className="text-sm">{model.description}</p>
                   <div className="flex items-center mt-4">
                       <button>Learn More</button>
                       <img src="/images/home/Arrow.png" alt="Arrow" />

@@ -7,19 +7,26 @@ const Statistics = ({ statisticsData }) => {
         Our Overall Impact Statistics
       </p>
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-3xl mx-auto">
-        {statisticsData.map((item, index) => (
-          <div
-            key={index}
-            className="p-4 rounded-lg border border-gray-400 flex flex-col justify-center"
-          >
-            <p className="text-xl font-semibold text-center mt-2">
-              {item.value}
-            </p>
-            <p className="text-center text-sm whitespace-pre-line">
-              {item.label}
-            </p>
-          </div>
-        ))}
+        {statisticsData.map((item, index) => {
+          const isLastItem = index === statisticsData.length - 1;
+          const isOdd = statisticsData.length % 2 !== 0;
+
+          return (
+            <div
+              key={index}
+              className={`p-4 rounded-lg border border-gray-400 flex flex-col justify-center ${
+                isOdd && isLastItem ? "col-span-2 mx-auto w-1/2" : ""
+              }`}
+            >
+              <p className="text-xl font-semibold text-center mt-2">
+                {item.value}
+              </p>
+              <p className="text-center text-sm whitespace-pre-line">
+                {item.label}
+              </p>
+            </div>
+          );
+        })}
       </div>
 
       <p className="uppercase text-center mt-4 text-sm">

@@ -6,22 +6,22 @@ const Services = () => {
       <p className="text-center text-2xl font-bold text-[#FCD901]">
         Our Services
       </p>
-      <p className="mt-4 font-thin">
+      <p className="mt-4 font-thin text-sm">
         Leading the charge against manual scavenging, Genrobotics has earned the
         trust of national and state leaders who have launched our solutions
         across India, marking a unified commitment to safety and dignity.
       </p>
       <div className="my-12 px-4">
-        <p className="text-[#FCD901]">
+        <p className="text-[#FCD901] text-base">
           Digitalisation of UGD Operations with Robotics & AI
         </p>
-        <p className="mt-2 text-sm ">
+        <p className="mt-2 text-xs ">
           Transforming traditional underground drainage (UGD) operations into
           smart, data-driven workflows through the integration of advanced
           robotics and artificial intelligence.
         </p>
         <div className="flex items-center mt-4">
-          <button className="mr-2">Learn More</button>
+          <button className="mr-2 text-sm">Learn More</button>
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -36,16 +36,16 @@ const Services = () => {
         </div>
       </div>
       <div className="my-12 px-4">
-        <p className="text-[#FCD901]">
+        <p className="text-[#FCD901] text-base">
           Digitalisation of UGD Operations with Robotics & AI
         </p>
-        <p className="mt-2 text-sm ">
+        <p className="mt-2 text-xs ">
           Transforming traditional underground drainage (UGD) operations into
           smart, data-driven workflows through the integration of advanced
           robotics and artificial intelligence.
         </p>
         <div className="flex items-center mt-4">
-          <button className="mr-2">Learn More</button>
+          <button className="mr-2 text-sm">Learn More</button>
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -60,16 +60,16 @@ const Services = () => {
         </div>
       </div>
       <div className="my-12 px-4">
-        <p className="text-[#FCD901]">
+        <p className="text-[#FCD901] text-base">
           Digitalisation of UGD Operations with Robotics & AI
         </p>
-        <p className="mt-2 text-sm ">
+        <p className="mt-2 text-xs ">
           Transforming traditional underground drainage (UGD) operations into
           smart, data-driven workflows through the integration of advanced
           robotics and artificial intelligence.
         </p>
         <div className="flex items-center mt-4">
-          <button className="mr-2">Learn More</button>
+          <button className="mr-2 text-sm">Learn More</button>
           <svg
             stroke="currentColor"
             fill="currentColor"

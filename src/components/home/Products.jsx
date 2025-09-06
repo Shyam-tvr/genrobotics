@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import {useState} from "react";
 
 
@@ -9,6 +10,7 @@ const productDetails = [
       "A vehicle-integrated robotic system for comprehensive manhole cleaning, on-site waste collection, containment, and transportation in a sealed system.",
     logo: "/images/home/Mobility-logo.png",
     image: "/images/home/Mobility.png",
+    link:"/mobility-plus"
   },
   {
     title: "For Manhole Cleaning",
@@ -16,6 +18,7 @@ const productDetails = [
       "The world's first robotic scavenger, Bandicoot, automates manhole cleaning with multi-jointed robotic arms, 360-degree vision, and advanced gas sensing.",
     logo: "/images/home/Bandicoot-logo.png",
     image: "/images/home/Bandicoot.png",
+    link:"/bandicoot"
   },
   {
     title: "For Horizontal Confined Space Cleaning",
@@ -23,6 +26,7 @@ const productDetails = [
       "Engineered for autonomous cleaning and inspection within hazardous industrial confined spaces like tanks, wells, canals, culverts, and closed drains.",
     logo: "/images/home/Wilboar-logo.png",
     image: "/images/home/Wilboar.png",
+    link: "/wilboar"
   },
   {
     title: "Multi-functional Solution",
@@ -30,6 +34,7 @@ const productDetails = [
       "A versatile robotic system combining waste collection, debris removal, inspection, and high-pressure cleaning in a single unit for diverse urban challenges.",
     logo: "/images/home/Mammoth-logo.png",
     image: "/images/home/Mammoth.png",
+    link:"/mammoth"
   },
   {
     title: "Digital Operations Platform",
@@ -37,6 +42,7 @@ const productDetails = [
       "Our smart operations management platform digitizes sanitation workflows, providing live GPS tracking, visual confirmation, and automated reports for transparency and accountability.",
     logo: "/images/home/Gcrow-logo.png",
     image: "/images/home/Gcrow.png",
+    link:"/gcrow"
   },
   {
     title: "Need Content",
@@ -44,6 +50,7 @@ const productDetails = [
       "Need Content Need Content Need Content Need Content Need Content Need Content Need Content Need Content Need Content Need Content Need Content Need ContentNeed Content Need Content",
     logo: "/images/home/Gmamba-logo.png",
     image: "/images/home/Gmamba.png",
+    link: ""
   },
 ];
 
@@ -57,11 +64,11 @@ const Products = () => {
   };
 
   return (
-    <div className="py-12">
+    <div id="products" className="py-12">
       <p className="px-4 text-2xl font-bold text-center">
         Our Robotic Product Solutions
       </p>
-      <p className="px-4 mt-4">
+      <p className="px-4 mt-4 text-sm">
         Genrobotics' core product lineup consists of advanced robotic systems
         engineered to tackle the most challenging and hazardous cleaning tasks
         in sanitation and confined industrial spaces. Each product is designed
@@ -72,7 +79,7 @@ const Products = () => {
           {productDetails.map((product, index) => (
             <div
               key={index}
-              className="bg-[#F2F2F2] rounded-xl shadow-md flex flex-col h-full flex-shrink-0 w-full min-h-[700px] max-h-[720px] overflow-hidden mt-12 transition-transform duration-1000 ease-in-out items-center border-2 border-transparent hover:border-[#2B2B2B] relative"
+              className="bg-[#F2F2F2] rounded-xl shadow-md flex flex-col h-full flex-shrink-0 w-full min-h-[600px] max-h-[720px] overflow-hidden mt-12 transition-transform duration-1000 ease-in-out items-center border-2 border-transparent hover:border-[#2B2B2B] relative"
               style={{ transform: `translateX(-${(activeIndex * 110) + 1}%)` }}
             >
               <img
@@ -86,13 +93,11 @@ const Products = () => {
                   alt={product.title || "Product Logo"}
                   className="w-full object-contain mb-4"
                 />
-                <h3 className="text-lg font-extrabold text-center mb-2 text-[#2B2B2B]">
+                <h3 className="text-sm font-extrabold text-center mb-2 text-[#2B2B2B]">
                   {product.title}
                 </h3>
-                <p>{product.description}</p>
-                <button className="absolute bottom-6 right-1/2 transform translate-x-1/2 bg-[#FCD901] text-sm mx-auto mt-8 py-2 px-4 rounded">
-                  More Details
-                </button>
+                <p className="text-xs">{product.description}</p>
+                <Link className="absolute bottom-6 right-1/2 transform translate-x-1/2 bg-[#FCD901] text-sm mx-auto mt-8 py-2 px-4 rounded" href={product.link} scroll={true}>More Details</Link>
               </div>
             </div>
           ))}

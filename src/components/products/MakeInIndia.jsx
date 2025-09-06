@@ -11,7 +11,7 @@ const MakeInIndia = ({title, subTitle, image, description}) => {
         alt="Make in India"
         className="rounded-xl"
       />
-      <p className="mt-4 text-justify">
+      <p className="mt-4 text-sm text-justify">
         {description}
       </p>
       <div className="flex justify-center items-center my-8">

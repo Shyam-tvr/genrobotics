@@ -12,7 +12,7 @@ const Working = ({ title, subTitle, description, data }) => {
     <div className="bg-[#f6f6f6] px-4 py-8">
       <h2 className="text-2xl font-bold py-4 text-center">{title}</h2>
       <div>
-        <p className="text-sm text-center font-bold">{subTitle}</p>
+        <p className="text-base text-center font-bold">{subTitle}</p>
         <p className="mt-4 text-sm">{description}</p>
       </div>
       {data && data.length > 0 && (

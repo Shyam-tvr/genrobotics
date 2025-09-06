@@ -24,11 +24,11 @@ const sliderContent = [
 
 const Milestones = () => {
   return (
-    <div className="px-4 py-24">
+    <div className="px-4 py-12">
       <p className="text-center text-2xl font-bold">
         Milestones & Endorsements
       </p>
-      <p className="mt-4">
+      <p className="mt-4 text-sm">
         Leading the charge against manual scavenging, Genrobotics has earned the
         trust of national and state leaders who have launched our solutions
         across India, marking a unified commitment to safety and dignity.
@@ -50,7 +50,7 @@ const Milestones = () => {
               </div>
               <div className="p-4">
                 <p className="text-xl font-bold mb-4">{content.title}</p>
-                <p>{content.description}</p>
+                <p className="text-sm">{content.description}</p>
               </div>
             </div>
           ))}

@@ -30,7 +30,7 @@ const Questions = ({faqData}) => {
                 expandedIndex === index ? "max-h-40" : "max-h-0"
               }`}
             >
-              <p className="text-xs mt-2">{item.answer}</p>
+              <p className="text-xs mt-2">{item.answer}</p> 
             </div>
           </div>
         ))}

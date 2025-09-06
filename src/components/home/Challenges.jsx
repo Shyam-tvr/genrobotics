@@ -6,7 +6,7 @@ const Challenges = () => {
       <p className="text-center text-2xl font-bold">
         A Global Challenge, <br /> A Global Solution
       </p>
-      <p className="mt-6">
+      <p className="mt-6 text-sm">
         The challenges of aging infrastructure, hazardous sanitation work, and
         urban flooding are not unique to India — they are pressing global issues
         affecting cities across continents. From Asia to Africa, from Latin

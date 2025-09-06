@@ -14,10 +14,19 @@ import Awards from "@/components/home/Awards";
 import Testmonials from "@/components/home/Testmonials";
 import Challenges from "@/components/home/Challenges";
 import Services from "@/components/home/Services";
+import { Roboto } from 'next/font/google';
+
+// You can configure the font with options like subsets, weight, etc.
+const roboto = Roboto({
+  weight: ['100','200','300','400','500','600','700','800','900'], // You can specify specific font weights
+  subsets: ['latin'], // You can also specify subsets like 'latin' or 'latin-ext'
+});
+
+
 
 export default function Home() {
   return (
-    <div >
+    <div className={roboto.className}>
       <Hero />
       <HiddenDanger />
       <Transform />

@@ -6,7 +6,7 @@ const Reach = () => {
       <p className="text-center text-2xl font-bold">
         Expanding Our Reach: 19 States & 3 UTs
       </p>
-      <p className="my-4">
+      <p className="my-4 text-sm">
         Bandicoot robots are now operational in 19 states and 3 Union
         Territories across India, bringing safer sanitation practices and
         empowering local communities nationwide.

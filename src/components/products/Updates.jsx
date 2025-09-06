@@ -4,7 +4,7 @@ import Slider from "../home/Slider";
 const Updates = ({updatesContent}) => {
   return (
     <div className="px-4 py-24">
-      <p className="text-center text-xl font-bold">RECENT UPDATES</p>
+      <p className="text-center text-2xl font-bold">RECENT UPDATES</p>
       <div>
         <Slider>
           {updatesContent.map((content, index) => (
@@ -22,7 +22,7 @@ const Updates = ({updatesContent}) => {
               </div>
               <div className="p-4">
                 <p className="text-xl font-bold mb-4">{content.title}</p>
-                <p>{content.description}</p>
+                <p className="text-sm">{content.description}</p>
               </div>
             </div>
           ))}

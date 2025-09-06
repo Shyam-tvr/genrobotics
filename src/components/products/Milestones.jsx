@@ -6,7 +6,7 @@ const Milestones = () => {
       <p className="text-center text-2xl font-bold">
         Nationwide Impact & Milestones
       </p>
-      <p className="mt-4">
+      <p className="mt-4 text-sm">
         Genrobotics, with its flagship product Bandicoot, has made significant
         strides in transforming sanitation practices across India, marking
         important milestones in its journey.
@@ -23,7 +23,7 @@ const Milestones = () => {
           </div>
           <div className="p-4">
             <p className="text-xl font-bold mb-4">7 Years of Bandicoot: A Journey of Innovation</p>
-            <p>Celebrating seven years of innovation and impact, Bandicoot's journey was significantly boosted by its launch, recognized and supported at the highest levels, including by the Hon'ble Prime Minister of India, Shri Narendra Modi. This endorsement highlighted the national importance of a technological solution to manual scavenging.</p>
+            <p className="text-sm">Celebrating seven years of innovation and impact, Bandicoot's journey was significantly boosted by its launch, recognized and supported at the highest levels, including by the Hon'ble Prime Minister of India, Shri Narendra Modi. This endorsement highlighted the national importance of a technological solution to manual scavenging.</p>
           </div>
         </div>
       </div>

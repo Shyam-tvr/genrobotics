@@ -17,7 +17,7 @@ const Why = ({ title, subTitle, image, bg, description }) => {
         <p className="text-2xl font-bold ">Why {title}?</p>
         <p className="text-sm">{subTitle}</p>
         {image && <img src={image} alt={title} className="rounded-xl mt-6 mx-auto"/>}
-        <p className="text-left mt-6">
+        <p className="text-left mt-6 text-sm">
           {description}
         </p>
       </div>

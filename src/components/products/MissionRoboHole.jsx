@@ -10,7 +10,7 @@ const MissionRoboHole = () => {
         alt="RoboHole"
         className="mx-auto"
       />
-      <p className="my-8 text-left">
+      <p className="my-8 text-left text-sm">
         #MissionRobohole is our dedicated initiative, in collaboration with
         NSKFDC (National Safai Karamcharis Finance and Development Corporation),
         aimed at completely eradicating the demeaning practice of manual

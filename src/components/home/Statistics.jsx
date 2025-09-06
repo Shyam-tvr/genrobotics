@@ -19,14 +19,14 @@ const Statistics = () => {
         {statisticsData.map((stat, index) => (
           <div
             key={index}
-            className="bg-white p-4 rounded-lg shadow-md text-center"
+            className="bg-white px-2 py-4 rounded-lg shadow-md text-center"
           >
             <p className="text-2xl font-bold">{stat.value} +</p>
-            <p>{stat.label}</p>
+            <p className="text-sm">{stat.label}</p>
           </div>
         ))}
       </div>
-      <button className="bg-[#FCD901] text-sm mx-auto py-2 px-4 rounded block">
+      <button className="bg-[#FCD901] text-sm mx-auto py-2 px-4 rounded block uppercase">
         More About Us
       </button>
     </div>

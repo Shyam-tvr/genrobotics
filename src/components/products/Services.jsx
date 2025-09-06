@@ -21,7 +21,7 @@ const Services = () => {
       <p className="text-center text-2xl font-bold text-[#FCD901]">
         Our Services
       </p>
-      <p className="mt-4 font-thin">
+      <p className="mt-4 font-thin text-sm">
         Genrobotics provides comprehensive services to help organizations and
         government bodies implement advanced robotic solutions for urban
         sanitation and confined space management, ensuring compliance and
@@ -29,12 +29,12 @@ const Services = () => {
       </p>
       <div className="my-12 px-4">
         <p className="text-[#FCD901]">Radical Transparency</p>
-        <p className="mt-2 text-sm ">
+        <p className="mt-2 text-sm">
           Build trust with stakeholders through verifiable, real-time data on
           all sanitation operations.
         </p>
         <div className="flex items-center mt-4">
-          <button className="mr-2">Learn More</button>
+          <button className="mr-2 text-sm">Learn More</button>
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -54,8 +54,8 @@ const Services = () => {
           Optimize routes, reduce idle time, and automate reporting to
           significantly boost productivity.
         </p>
-        <div className="flex items-center mt-4">
-          <button className="mr-2">Learn More</button>
+        <div className="flex items-center mt-4 text-sm">
+          <button className="mr-2 text-sm">Learn More</button>
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -76,7 +76,7 @@ const Services = () => {
           always ready for audits and regulatory checks.
         </p>
         <div className="flex items-center mt-4">
-          <button className="mr-2">Learn More</button>
+          <button className="mr-2 text-sm">Learn More</button>
           <svg
             stroke="currentColor"
             fill="currentColor"

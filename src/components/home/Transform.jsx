@@ -16,7 +16,7 @@ const Transform = () => {
           Transforming Sanitation with Advanced Robotics & AI
         </span>
         <div className="bg-[linear-gradient(90deg,#fcd90100,#fcda01d1_50%,#fcd90100)] h-[2px] w-1/2 mx-auto mt-4"></div>
-        <p className="text-white mt-4 font-thin">
+        <p className="text-white mt-4 text-sm font-thin">
           To address these critical challenges, Genrobotics, India’s leading
           robotics company, has developed revolutionary robotic technologies
           dedicated to transforming sanitation. With a strong focus on safety,

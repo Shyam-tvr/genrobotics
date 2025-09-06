@@ -35,10 +35,10 @@ const Awards = () => {
                   alt={award.title}
                   className="object-cover w-[300px] h-[150px] rounded-xl"
                 />
-                <p className="text-sm text-center font-light text-white mt-4">
+                <p className="text-sm text-center font-semibold text-white mt-4">
                   {award.title}
                 </p>
-                <p className="text-xs text-center font-extralight text-gray-400 mt-2">
+                <p className="text-xs text-center text-gray-400 mt-2">
                   {award.description}
                 </p>
               </div>

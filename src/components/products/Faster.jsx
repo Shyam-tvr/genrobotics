@@ -24,7 +24,7 @@ const data = [
 const Faster = () => {
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold text-center">
+      <p className="text-center text-2xl font-bold">
         Faster | Simple | Convenient 
       </p>
       <div className="flex overflow-x-scroll mt-4">

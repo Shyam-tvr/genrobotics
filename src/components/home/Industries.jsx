@@ -50,7 +50,7 @@ const Industries = () => {
                 className="object-contain"
               />
             </div>
-            <p className="text-center text-sm font-medium">{industry.label}</p>
+            <p className="text-center text-sm">{industry.label}</p>
           </div>
         ))}
       </div>

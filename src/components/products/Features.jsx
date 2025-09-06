@@ -22,9 +22,9 @@ const Features = ({ featuresDetails, description }) => {
               </>
             )}
 
-            <h3 className="font-bold text-center">{feature.title}</h3>
+            <h3 className="font-bold text-center text-sm mt-8">{feature.title}</h3>
             <div className="bg-[linear-gradient(90deg,#fcd90100,#000000_50%,#fcd90100)] h-[1px] w-1/2 mx-auto"></div>
-            <p className="text-[12px] mt-4">{feature.description}</p>
+            <p className="text-xs mt-4">{feature.description}</p>
           </div>
         ))}
       </div>
