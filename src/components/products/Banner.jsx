@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Banner = ({ logo, bg, title, subtitle }) => {
@@ -29,10 +30,7 @@ const Banner = ({ logo, bg, title, subtitle }) => {
             {subtitle}
           </p>
         )}
-
-        <button className="bg-[#FCD901] text-sm py-2 px-4 rounded mt-8">
-          Request a Demo
-        </button>
+        <Link className="bg-[#FCD901] text-sm py-2 px-4 rounded mt-8" href="#form" scroll={true}>Request a Demo</Link>
       </div>
     </div>
   );
