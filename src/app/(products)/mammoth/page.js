@@ -40,15 +40,15 @@ const ClientsData = [
     alt: "Client 1",
   },
   {
-    image: "/images/products/Client1.png",
+    image: "/images/products/client1.png",
     alt: "Client 2",
   },
   {
-    image: "/images/products/Client2.png",
+    image: "/images/products/client2.png",
     alt: "Client 3",
   },
   {
-    image: "/images/products/Client3.png",
+    image: "/images/products/client3.png",
     alt: "Client 4",
   }
 ];

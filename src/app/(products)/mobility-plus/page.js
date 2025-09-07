@@ -63,7 +63,7 @@ const IndustriesData = [
     label: "Distilleries",
   },
   {
-    image: "/images/products/Airport.png",
+    image: "/images/products/airport.png",
     label: "Airport",
   },
   {

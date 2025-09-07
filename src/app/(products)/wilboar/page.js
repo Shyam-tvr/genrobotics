@@ -65,7 +65,7 @@ const IndustriesData = [
 
 const ClientsData = [
   {
-    image: "/images/products/Client4.png",
+    image: "/images/products/client4.png",
     alt: "Client 1",
   },
   {
@@ -73,11 +73,11 @@ const ClientsData = [
     alt: "Client 2",
   },
   {
-    image: "/images/products/Client6.png",
+    image: "/images/products/client6.png",
     alt: "Client 3",
   },
   {
-    image: "/images/products/Client5.png",
+    image: "/images/products/client5.png",
     alt: "Client 4",
   },
 ];
