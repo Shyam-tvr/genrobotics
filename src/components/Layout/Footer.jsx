@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-black text-gray-400">
       <div className="bg-[url('/images/layout/footer-bg.png')] bg-no-repeat bg-cover p-8">
-        <img src="/images/layout/Gen-logo.png" alt="logo" />
+        <img src="/images/layout/gen-logo.png" alt="logo" />
         <ul>
           <li className="font-thin text-sm my-4">About Us</li>
           <li className="font-thin text-sm my-4">News</li>
