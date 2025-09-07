@@ -37,7 +37,7 @@ const featureList = [
 const Features = () => {
   return (
     <div className="px-4 py-16">
-      <p className="text-center text-2xl font-bold">Why Choose Genrobotics?</p>
+      <p className="text-center text-2xl font-bold font-anton tracking-wide">Why Choose Genrobotics?</p>
       <div className="mt-12 grid grid-cols-2 gap-4">
         {
           featureList.map((feature, index) => (

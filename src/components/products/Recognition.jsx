@@ -4,8 +4,8 @@ import Slider from "../home/Slider";
 
 const Recognition = ({ sliderContent }) => {
   return (
-    <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">Recognition & Compliance</p>
+    <div className="px-4 py-8">
+      <p className="text-center text-2xl font-bold font-anton tracking-wide">Recognition & Compliance</p>
       <div className="max-w-4xl mx-auto mt-4">
         <Slider>
           {sliderContent.map((content, index) => (

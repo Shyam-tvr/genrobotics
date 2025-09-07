@@ -17,7 +17,7 @@ const impactData = [
 const Impact = () => {
   return (
     <div className="bg-[#f6f6f6] px-4 py-8">
-      <h2 className="text-2xl font-bold py-4 text-center">
+      <h2 className="font-anton tracking-wide text-2xl font-bold py-4 text-center">
         Our Impact and Case Studies
       </h2>
       <p className="py-2 text-sm max-w-2xl mx-auto text-center">

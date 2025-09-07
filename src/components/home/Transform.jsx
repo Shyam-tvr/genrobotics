@@ -12,7 +12,7 @@ const Transform = () => {
         className="h-full w-full object-cover"
       />
       <div className="absolute inset-0 flex flex-col items-center p-4 mt-24">
-        <span className="text-[#FCD901] text-2xl text-center font-bold drop-shadow-lg">
+        <span className="text-[#FCD901] text-2xl text-center font-bold font-anton tracking-wide drop-shadow-lg">
           Transforming Sanitation with Advanced Robotics & AI
         </span>
         <div className="bg-[linear-gradient(90deg,#fcd90100,#fcda01d1_50%,#fcd90100)] h-[2px] w-1/2 mx-auto mt-4"></div>

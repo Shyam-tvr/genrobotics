@@ -3,7 +3,7 @@ import React from "react";
 const Transform = () => {
   return (
     <div className="p-8 text-center">
-      <p className="text-2xl font-bold ">
+      <p className="text-2xl font-bold font-anton tracking-wide">
         Transforming the Lives of Sanitation Workers
       </p>
       <p className="text-xs font-thin">More Than Just a Robot</p>

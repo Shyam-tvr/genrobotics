@@ -25,7 +25,7 @@ const sliderContent = [
 const Milestones = () => {
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton tracking-wide font-bold">
         Milestones & Endorsements
       </p>
       <p className="mt-4 text-sm">
@@ -49,7 +49,7 @@ const Milestones = () => {
                 />
               </div>
               <div className="p-4">
-                <p className="text-xl font-bold mb-4">{content.title}</p>
+                <p className="text-xl text-[#212529] mb-4 font-anton tracking-wide">{content.title}</p>
                 <p className="text-sm">{content.description}</p>
               </div>
             </div>

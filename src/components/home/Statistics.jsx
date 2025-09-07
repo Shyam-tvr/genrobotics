@@ -12,7 +12,7 @@ const statisticsData = [
 const Statistics = () => {
   return (
     <div className="px-4 py-24">
-      <p className="text-2xl font-bold text-center">
+      <p className="font-anton text-2xl tracking-wide font-bold text-center">
         Our Overall Impact Statistics
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
@@ -21,8 +21,8 @@ const Statistics = () => {
             key={index}
             className="bg-white px-2 py-4 rounded-lg shadow-md text-center"
           >
-            <p className="text-2xl font-bold">{stat.value} +</p>
-            <p className="text-sm">{stat.label}</p>
+            <p className="text-2xl font-bayon font-bold tracking-wider">{stat.value} +</p>
+            <p className="text-base">{stat.label}</p>
           </div>
         ))}
       </div>

@@ -4,7 +4,7 @@ import React from 'react'
 const Clients = () => {
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton tracking-wide font-bold">
         Our Esteemed Clients
       </p>
       <p className="text-sm mt-4">

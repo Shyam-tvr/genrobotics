@@ -3,7 +3,7 @@ import React from "react";
 const MissionRoboHole = () => {
   return (
     <div className="p-8 text-center">
-      <p className="text-2xl font-bold ">#MissionRobohole</p>
+      <p className="text-2xl font-bold font-anton tracking-wide">#MissionRobohole</p>
       <p className="text-sm font-thin">Transforming Manholes to Roboholes</p>
       <img
         src="/images/products/mission-robohole.png"

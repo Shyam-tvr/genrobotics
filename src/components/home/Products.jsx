@@ -65,7 +65,7 @@ const Products = () => {
 
   return (
     <div id="products" className="py-12">
-      <p className="px-4 text-2xl font-bold text-center">
+      <p className="px-4 text-2xl font-bold text-center font-anton tracking-wide">
         Our Robotic Product Solutions
       </p>
       <p className="px-4 mt-4 text-sm">

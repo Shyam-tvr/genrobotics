@@ -3,7 +3,7 @@ import React from "react";
 const Reach = () => {
   return (
     <div className="px-4 py-12 m-4 bg-gradient-to-b from-[#f2f2f2] to-[#ffffff] rounded-xl shadow-lg]">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton tracking-wide">
         Expanding Our Reach: 19 States & 3 UTs
       </p>
       <p className="my-4 text-sm">

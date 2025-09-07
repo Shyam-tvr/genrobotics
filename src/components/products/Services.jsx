@@ -18,7 +18,7 @@ const serviceList = [
 const Services = () => {
   return (
     <div className="bg-black bg-[url('/images/layout/footer-bg.png')] bg-cover px-4 py-8 text-gray-400">
-      <p className="text-center text-2xl font-bold text-[#FCD901]">
+      <p className="text-center text-2xl font-anton tracking-wide font-bold text-[#FCD901]">
         Our Services
       </p>
       <p className="mt-4 font-thin text-sm">

@@ -4,7 +4,7 @@ import Slider from "./Slider";
 const Testmonials = () => {
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton font-bold tracking-wide">
         Backed by <br />Those Who Lead Change!
       </p>
       <div className="bg-[linear-gradient(90deg,#ffffff,#000000_50%,#ffffff)] h-[1px] w-full mx-auto mt-4"></div>

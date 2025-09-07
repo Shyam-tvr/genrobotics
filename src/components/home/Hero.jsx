@@ -14,10 +14,10 @@ const Hero = () => {
 
       {/* Content Wrapper */}
       <div className="relative z-20 flex flex-col items-center text-center">
-        <p className="text-[#9D9D9D] text-2xl text-center font-bold w-full px-4">
+        <p className="text-[#9D9D9D] font-anton text-2xl text-center font-bold tracking-wide w-full px-4">
           Innovating for Safer Cities, Healthier Lives:
         </p>
-        <p className="text-white text-2xl text-center font-bold w-full px-4">
+        <p className="text-white text-2xl font-anton text-center font-bold tracking-wide w-full px-4">
           Compliance Driven Robotics for a Cleaner Future
         </p>
         <p className="text-white w-full text-sm px-4 py-8">

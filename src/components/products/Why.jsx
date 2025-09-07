@@ -14,7 +14,7 @@ const Why = ({ title, subTitle, image, bg, description }) => {
         />
       )}
       <div className={`${bg && "absolute inset-0 flex flex-col items-center"} p-4 mt-12 max-w-4xl mx-auto`}>
-        <p className="text-2xl font-bold ">Why {title}?</p>
+        <p className="text-2xl font-anton font-bold tracking-wide">Why {title}?</p>
         <p className="text-sm">{subTitle}</p>
         {image && <img src={image} alt={title} className="rounded-xl mt-6 mx-auto"/>}
         <p className="text-left mt-6 text-sm">

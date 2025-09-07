@@ -26,7 +26,7 @@ const sliderContent = [
 const Recognition = () => {
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">Recognition & Compliance</p>
+      <p className="text-center text-2xl font-anton tracking-wide font-bold">Recognition & Compliance</p>
       <div className="max-w-4xl mx-auto mt-8">
         <Slider>
           {sliderContent.map((content, index) => (

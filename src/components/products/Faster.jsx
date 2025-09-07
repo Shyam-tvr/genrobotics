@@ -24,7 +24,7 @@ const data = [
 const Faster = () => {
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton tracking-wide font-bold">
         Faster | Simple | Convenient 
       </p>
       <div className="flex overflow-x-scroll mt-4">
@@ -35,8 +35,8 @@ const Faster = () => {
                 alt={`item ${index + 1}`}
               />
               <div className="p-4">
-                <h3 className="font-bold text-center text-sm">{item.title}</h3>
-                <div className="bg-[linear-gradient(90deg,#fcd90100,#000000_50%,#fcd90100)] h-[1px] w-1/2 mx-auto"></div>
+                <h3 className="font-bold text-center text-sm font-anton tracking-wide">{item.title}</h3>
+                <div className="bg-[linear-gradient(90deg,#fcd90100,#000000_50%,#fcd90100)] h-[1px] w-1/2 mx-auto mt-2"></div>
                 <p className="text-[12px] mt-4">{item.description}</p>
               </div>
           </div>

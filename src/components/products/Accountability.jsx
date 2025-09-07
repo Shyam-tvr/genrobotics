@@ -3,12 +3,12 @@ import React from "react";
 const Accountability = () => {
   return (
     <div className="px-4 py-12 bg-[#f6f6f6]">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton font-bold tracking-wide">
         From Uncertainty to Accountability: The Digital Transformation
       </p>
       <div className="mt-6">
         <div className="mx-2 my-4 py-8 px-4 bg-[#d9d9d936] rounded-xl">
-          <p className="text-center font-bold text-sm">
+          <p className="text-center font-anton tracking-wide text-sm">
             The Old Way: Operational Blindspots
           </p>
           <div className="bg-[linear-gradient(90deg,#fcd90100,#000000_50%,#fcd90100)] h-[1px] mx-auto my-2"></div>
@@ -27,7 +27,7 @@ const Accountability = () => {
           </ul>
         </div>
         <div className="mx-2 my-4 py-8 px-4 bg-gradient-to-br from-[#fcda0169] to-whit rounded-xl">
-          <p className="text-center font-bold">
+          <p className="text-center font-anton tracking-wide">
             The G Crow Way: Absolute Clarity
           </p>
           <div className="bg-[linear-gradient(90deg,#fcd90100,#000000_50%,#fcd90100)] h-[1px] mx-auto my-2"></div>

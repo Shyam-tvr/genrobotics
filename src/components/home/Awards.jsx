@@ -19,7 +19,7 @@ const AwardsDetails =[
 const Awards = () => {
   return (
     <div className="px-4 py-12 bg-black">
-      <p className="text-[#FCD901] text-center text-2xl font-bold">
+      <p className="text-[#FCD901] text-center text-2xl font-bold font-anton tracking-wide">
         Awards & Recognition
       </p>
       <p className="text-sm text-center font-extralight text-white mt-4">

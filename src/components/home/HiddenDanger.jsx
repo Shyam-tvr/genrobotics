@@ -5,10 +5,10 @@ const HiddenDanger = () => {
   return (
     <div className="px-8 py-12 text-center">
       <div>
-        <p className="text-xl font-bold text-[#656565]">
+        <p className="text-xl font-bold text-[#656565] font-anton tracking-wide">
           The Hidden Dangers of
         </p>
-        <p className="text-xl font-bold ">Manual confined space Cleaning</p>
+        <p className="text-xl font-bold font-anton tracking-wide">Manual confined space Cleaning</p>
       </div>
       <div className="relative w-full h-64 my-8">
         <Image

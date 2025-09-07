@@ -3,7 +3,7 @@ import React from "react";
 const Form = ({ title, description }) => {
   return (
     <div id="form" className="px-4 py-12 bg-gradient-to-br from-[#FCD901] to-white">
-      <p className="text-center text-2xl font-bold">{title}?</p>
+      <p className="text-center text-2xl font-anton font-bold tracking-wide">{title}?</p>
       <p className="text-sm my-4">{description}</p>
       <div className="p-4 bg-white rounded-lg shadow-md space-y-4 gap-4">
         <div>

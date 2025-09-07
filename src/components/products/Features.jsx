@@ -3,7 +3,7 @@ import React from "react";
 const Features = ({ featuresDetails, description }) => {
   return (
     <div className="bg-[#f6f6f6] px-4 py-8">
-      <h2 className="text-2xl font-bold py-4 text-center">Key Features</h2>
+      <h2 className="text-2xl font-anton font-bold py-4 text-center tracking-wide">Key Features</h2>
       <p className=" text-sm mx-auto text-center">{description}</p>
       <div className="grid grid-cols-2 gap-4 mt-6 max-w-4xl mx-auto">
         {featuresDetails.map((feature, index) => (
@@ -22,7 +22,7 @@ const Features = ({ featuresDetails, description }) => {
               </>
             )}
 
-            <h3 className="font-bold text-center text-sm mt-8">{feature.title}</h3>
+            <h3 className="font-bold font-anton tracking-wider text-center text-sm mt-8">{feature.title}</h3>
             <div className="bg-[linear-gradient(90deg,#fcd90100,#000000_50%,#fcd90100)] h-[1px] w-1/2 mx-auto"></div>
             <p className="text-xs mt-4">{feature.description}</p>
           </div>

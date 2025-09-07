@@ -32,7 +32,7 @@ const IndustriesData = [
 const Industries = () => {
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton tracking-wide font-bold">
         Industries We Serve
       </p>
       <div className="grid grid-cols-3 gap-2 mt-8">

@@ -3,7 +3,7 @@ import React from "react";
 const Challenges = () => {
   return (
     <div className="px-4 py-12 bg-[url('/images/home/challenges-bg.png')]">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton font-bold tracking-wide">
         A Global Challenge, <br /> A Global Solution
       </p>
       <p className="mt-6 text-sm">

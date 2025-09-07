@@ -10,7 +10,7 @@ const Questions = ({faqData}) => {
 
   return (
     <div className="px-4 py-12">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-bold font-anton tracking-wide">
         Frequently Asked Questions
       </p>
       <div className="mt-8 max-w-3xl mx-auto text-left bg-[#d9d9d983] p-4 rounded-xl divide-gray-300 divide-y">

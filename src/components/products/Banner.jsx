@@ -18,7 +18,7 @@ const Banner = ({ logo, bg, title, subtitle }) => {
         <img src={logo} alt="Logo" className="mx-auto" />
 
         <p
-          className={`text-2xl font-bold w-full px-4 mt-4 ${
+          className={`text-2xl font-anton font-bold tracking-wide w-full px-4 mt-4 ${
             subtitle ? "text-[#9d9d9d]" : "text-white"
           }`}
         >
@@ -26,7 +26,7 @@ const Banner = ({ logo, bg, title, subtitle }) => {
         </p>
 
         {subtitle && (
-          <p className="text-2xl font-bold text-white w-full px-4 mt-2">
+          <p className="text-2xl font-anton font-bold tracking-wide text-white w-full px-4">
             {subtitle}
           </p>
         )}

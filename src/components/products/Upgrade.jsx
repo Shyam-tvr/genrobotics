@@ -5,7 +5,7 @@ const Upgrade = () => {
   return (
     <div className="py-12">
       <div className="p-4">
-        <p className="text-center text-2xl font-bold">Upgrade Your Bandicoot to Mobility+</p>
+        <p className="text-center text-2xl font-anton font-bold tracking-wide">Upgrade Your Bandicoot to Mobility+</p>
         <p className="text-sm mt-4">
           Current Bandicoot users can now elevate their sanitation operations by
           upgrading to the Bandicoot Mobility+. This advanced vehicle-integrated

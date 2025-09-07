@@ -3,7 +3,7 @@ import React from "react";
 const Statistics = ({ statisticsData }) => {
   return (
     <div className="px-4 py-12 bg-gradient-to-br from-[#fcda01a9] to-white">
-      <p className="text-center text-2xl font-bold">
+      <p className="text-center text-2xl font-anton font-bold tracking-wide">
         Our Overall Impact Statistics
       </p>
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-3xl mx-auto">
@@ -18,7 +18,7 @@ const Statistics = ({ statisticsData }) => {
                 isOdd && isLastItem ? "col-span-2 mx-auto w-1/2" : ""
               }`}
             >
-              <p className="text-xl font-semibold text-center mt-2">
+              <p className="text-2xl font-bold text-center mt-2 font-bayon tracking-wider">
                 {item.value}
               </p>
               <p className="text-center text-sm whitespace-pre-line">
