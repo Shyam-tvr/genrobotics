@@ -1,5 +1,6 @@
 import "./globals.css";
 import { roboto, anton, bayon } from './fonts';
+import Navbar from "@/components/layout/Navbar";
 
 export const metadata = {
   title: "Genrobotics",
@@ -9,7 +10,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${anton.variable} ${bayon.variable}`}>
+      <body className={`${roboto.variable} ${anton.variable} ${bayon.variable} bg-black font-roboto`}>
+        <Navbar />
         {children}
       </body>
     </html>
